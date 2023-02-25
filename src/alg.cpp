@@ -8,8 +8,7 @@ bool checkPrime(uint64_t value) {
     return false;
   }
   for (int i = 2; i <= sqrt(value); i++) {
-    if (value % i == 0)
-    {
+    if (value % i == 0) {
       return false;
     }
   }
@@ -26,8 +25,7 @@ uint64_t nPrime(uint64_t n) {
       return i;
     } else {
       continue;
-  }
-} 
+  }} 
   return 0;
 }
 
@@ -37,7 +35,6 @@ uint64_t nextPrime(uint64_t value) {
       return i;
   }
 }
-
 uint64_t sumPrime(uint64_t hbound) {
 uint64_t count = 0;
   if (hbound > 2) {
@@ -49,3 +46,4 @@ uint64_t count = 0;
 }
 return count; 
 }
+
