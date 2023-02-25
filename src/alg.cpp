@@ -25,7 +25,8 @@ uint64_t nPrime(uint64_t n) {
       return i;
     } else {
       continue;
-  }} 
+    }
+ } 
   return 0;
 }
 
@@ -44,6 +45,5 @@ uint64_t count = 0;
       }
     }
 }
-return count; 
+return count;
 }
-
